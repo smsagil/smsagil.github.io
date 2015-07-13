@@ -1,12 +1,26 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: SMS Ágil
+email: contato@smsagil.com.br
+description: "Campanhas de marketing com sms"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://smsagil.com"
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+data_source: ./_data
+collections: null
+
+permalink: /:title/
+
+# analytics:
+#  provider: google
+#  google:
+#   tracking_id : 'UA-56019611-2'
