@@ -1,0 +1,54 @@
+body {
+	font-family: 'Roboto', 'Exo 2', sans-serif;
+}
+
+/*
+	CORES
+*/
+.text-gray {
+	color: #48443D;
+}
+.text-gray-light {
+	color: #6D6E71;
+}
+.text-white {
+	color: #FFF;
+}
+
+/*
+	TITULOS
+*/
+.title-section {
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	color: #6C6D71;
+	font-size: 32px;
+	font-weight: 300;
+}
+.title-col {
+	font-family: 'Exo 2', sans-serif;
+	color: #47443D;
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: -2px
+}
+.title-mkt {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: -2px
+}
+.title-mega {
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	color: #47443D;
+	font-size: 64px;
+	font-weight: 600;
+	letter-spacing: -2px
+}
+.lead {
+	color: #6D6E71;
+}
+/*
+	BOTÕES
+*/
