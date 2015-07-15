@@ -15,9 +15,18 @@
 	<script type="text/javascript" src="{{ "/js/jquery-2.1.4.min.js" | prepend: site.baseurl }}"></script>
 	<script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 	<script type="text/javascript" src="{{ "/js/jquery.fullPage.min.js" | prepend: site.baseurl }}"></script>
+	<script type="text/javascript" src="{{ "/js/headroom.min.js" | prepend: site.baseurl }}"></script>
 	<script type="text/javascript" src="{{ "/js/wow.min.js" | prepend: site.baseurl }}"></script>
 	<script>
+		// Headroom.JS Initialization
+		var header = document.querySelector('#header');
+		var headroom = new Headroom(header);
+		headroom.init();
+
+		// WOW Plugin Initialization
 		new WOW().init();
+
+		// jQuery FullPage Plugin Initialization and Configuration
 		$(document).ready(function() {
 		    $('#fullpage').fullpage({
 				slidesNavigation: false,
