@@ -1,13 +1,296 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SMS Ágil</title>
-    <description>Campanhas de marketing com sms</description>
-    <link>http://smsagil.com/</link>
-    <atom:link href="http://smsagil.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Jul 2015 22:17:57 -0300</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2015 22:17:57 -0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-  </channel>
-</rss>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Campanhas de marketing com sms">
+    <link rel="canonical" href="http://smsagil.com/feed.xml">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:300,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+	<header class="site-header">
+
+	<nav class="navbar">
+	<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="img/sms-agil-logo.png" alt="">
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li>
+						<button class="btn btn-warning navbar-btn" type="button">Cadastre-se</button>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+</header>
+
+
+	<section class="section section-blue section-sky">
+		<div class="container text-center">
+			<h1 class="title-mega">Voe com SMS Marketing</h1>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<p class="lead">Crie campanhas de sms e desenvolva um relacionamento com seu cliente: Promova, divulgue, agradeça, avise e mais. <br> Cadastre e começe a usar!</p>
+
+				</div>
+			</div>
+			<a class="btn btn-warning" href="#" role="button">Faça seu cadastro</a>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h4 class="title-section">Benefícios do SMS</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center wow fadeIn" data-wow-delay="500ms">
+					<img src="img/target.png" alt="Comunicação Direta" class="wow slideInLeft" data-wow-delay="600ms">
+					<h2 class="title-col">Comunicação Direta</h2>
+					<p class="lead">90% são abertos e lidos em menos de 3 minutos</p>
+				</div>
+				<div class="col-md-4 text-center wow fadeIn" data-wow-delay="500ms">
+					<img src="img/money.png" alt="Econômico" class="wow slideInUp" data-wow-delay="600ms">
+					<h2 class="title-col">Econômico</h2>
+					<p class="lead">Custo reduzido em relação às outras mídias.</p>
+				</div>
+				<div class="col-md-4 text-center wow fadeIn" data-wow-delay="500ms">
+					<img src="img/phone.png" alt="Simples e Acessivel" class="wow slideInRight" data-wow-delay="600ms">
+					<h2 class="title-col">Simples e Acessivel</h2>
+					<p class="lead">Compatível com 100% dos aparelhos de celular</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-md-offset-2">
+					<h2 class="title-mkt">SMS Marketing para alavancar suas vendas</h2>
+					<p class="lead">Faça campanhas de vendas, promoções, queima de estoque, campanhas para datas especiais e mais.</p>
+					<a class="btn btn-primary" href="#" role="button">Teste Gratuitamente</a>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h2 class="title-mkt">SMS Marketing ajuda na comunicação</h2>
+					<p class="lead">Lembretes de consultas, exames, reuniões, alertas de fatura em atraso, retirada de produtos, etc são enviadas de forma prática, ágil e econômica</p>
+					<a class="btn btn-primary" href="#" role="button">Teste Gratuitamente</a>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-md-offset-2">
+					<h2 class="title-mkt">SMS Marketing para fidelizar seus clientes</h2>
+					<p class="lead">SMS em datas comemorativas são uma forma de estimular o relacionamento e fidelizar o cliente. Para quem recebe a mensagem, a sensação de proximidade é ainda maior.</p>
+					<a class="btn btn-primary" href="#" role="button">Teste Gratuitamente</a>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h4 class="title-section">Nosso Diferencial</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img src="img/security.jpg" alt="Segurança">
+					<h2 class="title-col">Segurança</h2>
+					<p class="lead">Sua base de contatos não será compartilhada. Seus clientes não irão receber spam. Todas as suas informações são criptografadas.</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="img/flexibility.png" alt="Flexibilidade">
+					<h2 class="title-col">Flexibilidade</h2>
+					<p class="lead">Nossos planos são flexiveis para que você tenha o maior alcance possível com o menor custo.</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="img/agility.png" alt="Agilidade">
+					<h2 class="title-col">Agilidade</h2>
+					<p class="lead">As suas mensagens chegaram aos seus clientes em menos de 1 minuto.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h4 class="title-section">Sobre a Plataforma</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<img src="" alt="">
+					<h2 class="title-col">Importe seus contatos</h2>
+					<p class="lead">Importe os contatos do seu celular, de outros sistemas ou cadastre manualmente.</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="" alt="">
+					<h2 class="title-col">Monte grupos de contatos</h2>
+					<p class="lead">Separe seus contatos em grupos categorizados, seja por interesse, areas de atuação, entre outros.</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="" alt="">
+					<h2 class="title-col">Criar campanhas personalizadas</h2>
+					<p class="lead">Agende o envio de campanhas e obtenha relatórios sobre o recebimento dos SMS.</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="" alt="">
+					<h2 class="title-col">Envie mensagens individuais</h2>
+					<p class="lead">Envie mensagens para um unico contato de forma rápida.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h4 class="title-section">Planos e Preços</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<div class="lift plan-tier">
+						<h4>Agency</h4>
+						<h5><sup class="superscript">$</sup><span class="plan-price">100</span><sub> /mo</sub></h5>
+						<p class="early-adopter-price">Early adopter price</p><br>
+						<del>$200/mo</del>
+						<ul>
+							<li><strong>Unlimited</strong> sites</li>
+							<li><strong>Unlimited</strong> users</li>
+							<li><strong>Free hosting</strong> (beta)</li>
+							<li>14 day <strong>free trial</strong></li>
+							<a class="btn btn-primary btn-block" href="#" role="button">Teste Gratuitamente</a>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="third lift plan-tier callout">
+						<div class="callout-title">Most popular</div>
+						<h4>Team</h4>
+						<h5><sup class="superscript">$</sup><span class="plan-price">20</span><sub> /mo</sub></h5>
+						<p class="early-adopter-price">Early adopter price</p><br>
+						<del>$40/mo</del>
+						<ul>
+							<li>Up to <strong>10</strong> sites</li>
+							<li>Up to <strong>10</strong> users per site</li>
+							<li><strong>Free hosting</strong> (beta)</li>
+							<li>14 day <strong>free trial</strong></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="lift plan-tier">
+						<h4>Agency</h4>
+						<h5><sup class="superscript">$</sup><span class="plan-price">100</span><sub> /mo</sub></h5>
+						<p class="early-adopter-price">Early adopter price</p><br>
+						<del>$200/mo</del>
+						<ul>
+							<li><strong>Unlimited</strong> sites</li>
+							<li><strong>Unlimited</strong> users</li>
+							<li><strong>Free hosting</strong> (beta)</li>
+							<li>14 day <strong>free trial</strong></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="lift plan-tier" onclick="location.href='#';">
+						<h4>Agency</h4>
+						<h5><sup class="superscript">$</sup><span class="plan-price">100</span><sub> /mo</sub></h5>
+						<p class="early-adopter-price">Early adopter price</p><br>
+						<del>$200/mo</del>
+						<ul>
+							<li><strong>Unlimited</strong> sites</li>
+							<li><strong>Unlimited</strong> users</li>
+							<li><strong>Free hosting</strong> (beta)</li>
+							<li>14 day <strong>free trial</strong></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div style="clear: both"></div>
+	</section>
+</section>
+
+<footer class="site-footer">
+
+	<section>
+	  <div class="container">
+	    <ul>
+	      <li><a href="#">Link 1</a></li>
+	      <li><a href="#">Link 2</a></li>
+	      <li><a href="#">Link 3</a></li>
+	      <li><a href="#">Link 4</a></li>
+	    </ul>
+	    SMS Ágil - Copyright 2015
+	  </div>
+	</section>
+
+	<script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</footer>
+
+
+</body>
+</html>
