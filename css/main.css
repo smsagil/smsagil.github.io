@@ -72,10 +72,7 @@ body {
 /*
 	SECTIONS
 */
-.section {
-	padding-top: 40px;
-	padding-bottom: 40px
-}
+
 .section-sky {
 	background-color: #7FD2F5;
 	min-height: 600px;
@@ -213,4 +210,16 @@ font-size: 1.25em;
 
 .plan-tier.callout h4 {
 background-color: #78b336;
+}
+
+.section-1 {
+background-color: #4D9CD5;
+}
+
+.section-2 {
+background-color: #F49D1E;
+}
+
+.section-3 {
+background-color: #E7E8E9;
 }
