@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/smsagil/smsagil.github.io/issues"
   },
-  "homepage": "https://github.com/smsagil/smsagil.github.io#readme"
+  "homepage": "https://github.com/smsagil/smsagil.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
