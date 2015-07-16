@@ -200,7 +200,7 @@
 		</div>
 	</section>
 
-	<section class="section" id="planos">
+	<section class="section section-plans" id="planos">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
@@ -314,6 +314,17 @@
 				slidesNavigation: false,
 				autoScrolling: false,
 				fitToSection: false,
+
+
+				afterRender: function(){
+					var plans_section = document.getElementById('planos');
+					plans_section.style.height = "900px";
+				},
+
+				afterResize: function(){
+					var plans_section = document.getElementById('planos');
+					plans_section.style.height = "900px";
+				}
 
 			});
 		});

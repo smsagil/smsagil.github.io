@@ -377,6 +377,10 @@ background-color: #F49D1E;
 background-color: #E7E8E9;
 }
 
+.section-plans fp-tableCell {
+	height: 800px important!;
+}
+
 /*
 HEADROOM
 */

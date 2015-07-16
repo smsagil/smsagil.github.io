@@ -43,6 +43,17 @@
 				autoScrolling: false,
 				fitToSection: false,
 
+
+				afterRender: function(){
+					var plans_section = document.getElementById('planos');
+					plans_section.style.height = "900px";
+				},
+
+				afterResize: function(){
+					var plans_section = document.getElementById('planos');
+					plans_section.style.height = "900px";
+				}
+
 			});
 		});
 	</script>
