@@ -30,7 +30,19 @@
 	<script>
 		// Headroom.JS Initialization
 		var header = document.querySelector('#header');
-		var headroom = new Headroom(header);
+		var headroom = new Headroom(header, {
+			"offset": 80,
+			"tolerance": 5,
+			"classes": {
+				"initial": "animated",
+			    "pinned": "slideDown",
+			    "unpinned": "slideUp",
+			},
+			onTop : function() {
+				var header = document.querySelector('#header');
+				header.classList.remove('slideDown');
+			},
+		});
 		headroom.init();
 
 		// WOW Plugin Initialization

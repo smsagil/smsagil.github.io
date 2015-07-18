@@ -386,7 +386,10 @@ HEADROOM
 
 .headroom--pinned {
     display: block;
+    background-color: #fff;
+    margin-top: 0px;
 }
+
 .headroom--unpinned {
     display: none;
 }

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/jquery.fullPage.css"/>
+    <link rel="stylesheet" href="/css/slide.css"/>
 
     <link href='http://fonts.googleapis.com/css?family=Exo+2:300,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -23,9 +24,9 @@
 
 <body>
 
-	<header id="header" role="banner">
+	<header>
 
-	<nav class="navbar">
+	<nav id="header" class="navbar">
 	<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -302,7 +303,19 @@
 	<script>
 		// Headroom.JS Initialization
 		var header = document.querySelector('#header');
-		var headroom = new Headroom(header);
+		var headroom = new Headroom(header, {
+			"offset": 80,
+			"tolerance": 5,
+			"classes": {
+				"initial": "animated",
+			    "pinned": "slideDown",
+			    "unpinned": "slideUp",
+			},
+			onTop : function() {
+				var header = document.querySelector('#header');
+				header.classList.remove('slideDown');
+			},
+		});
 		headroom.init();
 
 		// WOW Plugin Initialization
