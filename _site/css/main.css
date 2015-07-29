@@ -136,159 +136,146 @@ FOOTER
 	color: #48443D;
 }
 /*
-	PRICE TABLE
-	*/
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		-moz-box-sizing: border-box;
-	}
-
-	strong {
-		color: rgba(39,65,90,1);
-		font-weight: 600;
-	}
-
-	.plan-tier {
-		background: white;
-		vertical-align: baseline;
-		border-radius: 3px;
-		-moz-border-radius: 3px;
-		overflow: hidden;
-	}
-
-	.lift {
-		position: relative;
-		-webkit-transition: all .075s ease-out;
-		-moz-transition: all .075s ease-out;
-		-o-transition: all .075s ease-out;
-		transition: all .075s ease-out;
-	}
-
-	.lift:hover {
-		top: -3px;
-		-webkit-box-shadow: 0 2px 6px rgba(39,65,90,.15);
-		-moz-box-shadow: 0 2px 6px rgba(39,65,90,.15);
-		box-shadow: 0 2px 6px rgba(39,65,90,.15);
-	}
-
-	.plan-tier h4 {
-		padding: 18px 0 15px;
-		margin: 0 0 30px;
-		background: #00a1ff;
-		color: white;
-	}
-
-	.plan-tier {
-		cursor: pointer;
-	}
-
-	.plan-tier sup {
-		position: relative;
-		right: -9px;
-	}
-
-	.plan-tier ul {
-		margin: 30px 0 0;
-		border-top: 2px solid #e7f2f0;
-	}
-
-	.plan-tier ul li {
-		font-size: 1.25em;
-		padding: 18px 0;
-		color: rgba(39,65,90,.9);
-		border-bottom: 2px solid #e7f2f0;
-	}
-
-	sup {
-		vertical-align: top;
-	}
-
-	.plan-tier .plan-price {
-		font-size: 5em;
-		font-weight: 300;
-		letter-spacing: -3px;
-	}
-
-	.plan-tier sub {
-		vertical-align: bottom;
-		position: relative;
-		bottom: .875em;
-	}
-
-	.plan-tier .early-adopter-price {
-		color: #0091e5;
-	}
-	p:first-of-type {
-		margin-top: 0;
-	}
-
-	small, del {
-		color: rgba(39,65,90,.5);
-		font-size: 1em;
-		line-height: 1.5em;
-	}
-
-	s, strike, del {
-		text-decoration: line-through;
-	}
-
-
-	.layer {
-		padding-top: 96px;
-		padding-bottom: 96px;
-	}
-
-	.callout-title {
-		width: 100%;
-		padding: 15px 0 14px;
-		background: #8dcf3f;
-		color: rgba(39,65,90,.5);
-		font-size: 1.25em;
-	}
-
-	.plan-tier.callout h4 {
-		background-color: #78b336;
-	}
-
-	.section-1 {
-		background-color: #4D9CD5;
-	}
-
-	.section-2 {
-		background-color: #F49D1E;
-	}
-
-	.section-3 {
-		background-color: #E7E8E9;
-	}
-/*
-HEADROOM
+PRICE TABLE
 */
-
-.headroom {
-	transition: transform 200ms linear;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
-.headroom--pinned {
-	display: block;
-	background-color: #fff;
+strong {
+	color: rgba(39,65,90,1);
+	font-weight: 600;
+}
+
+.plan-tier {
+	background: white;
+	vertical-align: baseline;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	overflow: hidden;
+}
+
+.lift {
+	position: relative;
+	-webkit-transition: all .075s ease-out;
+	-moz-transition: all .075s ease-out;
+	-o-transition: all .075s ease-out;
+	transition: all .075s ease-out;
+}
+
+.lift:hover {
+	top: -3px;
+	-webkit-box-shadow: 0 2px 6px rgba(39,65,90,.15);
+	-moz-box-shadow: 0 2px 6px rgba(39,65,90,.15);
+	box-shadow: 0 2px 6px rgba(39,65,90,.15);
+}
+
+.plan-tier h4 {
+	padding: 18px 0 15px;
+	margin: 0 0 30px;
+	background: #00a1ff;
+	color: white;
+}
+
+.plan-tier {
+	cursor: pointer;
+}
+
+.plan-tier sup {
+	position: relative;
+	right: -9px;
+}
+
+.plan-tier ul {
+	margin: 30px 0 0;
+	border-top: 2px solid #e7f2f0;
+}
+
+.plan-tier ul li {
+	font-size: 1.25em;
+	padding: 18px 0;
+	color: rgba(39,65,90,.9);
+	border-bottom: 2px solid #e7f2f0;
+}
+
+sup {
+	vertical-align: top;
+}
+
+.plan-tier .plan-price {
+	font-size: 5em;
+	font-weight: 300;
+	letter-spacing: -3px;
+}
+
+.plan-tier sub {
+	vertical-align: bottom;
+	position: relative;
+	bottom: .875em;
+}
+
+.plan-tier .early-adopter-price {
+	color: #0091e5;
+}
+p:first-of-type {
+	margin-top: 0;
+}
+
+small, del {
+	color: rgba(39,65,90,.5);
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+s, strike, del {
+	text-decoration: line-through;
+}
+
+
+.layer {
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+.callout-title {
+	width: 100%;
+	padding: 15px 0 14px;
+	background: #8dcf3f;
+	color: rgba(39,65,90,.5);
+	font-size: 1.25em;
+}
+
+.plan-tier.callout h4 {
+	background-color: #78b336;
+}
+
+.section-1 {
+	background-color: #4D9CD5;
+}
+
+.section-2 {
+	background-color: #F49D1E;
+}
+
+.section-3 {
+	background-color: #E7E8E9;
+}
+
+/*
+Headroom
+*/
+.headroom--top {
+	background-color: transparent;
+}
+
+.headroom--not-top {
+	background-color: #F5F5F5;
 	margin-top: 0px;
 }
 
-.headroom--not-top .navbar-nav {
-	margin-top: 0 !important;
-}
-
-.headroom--not-top .navbar-logo {
-	height: 21px;
-}
-
-.headroom--unpinned {
-	display: none;
-	background-color: #f5f5f5 !important;
-}
 /*
  --
 */

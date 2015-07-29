@@ -23,40 +23,37 @@
 
 
 <body>
-
 	<header>
+		<nav id="header" class="navbar">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img class="navbar-logo" src="img/sms-agil-logo.png" alt="">
+					</a>
+				</div>
 
-	<nav id="header" class="navbar">
-	<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">
-					<img class="navbar-logo" src="img/sms-agil-logo.png" alt="">
-				</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Planos</a></li>
-					<li><a href="#">Contato</a></li>
-					<li><a href="#">Login</a></li>
-					<li>
-						<button class="btn btn-warning navbar-btn btn-sm" type="button">Cadastre-se</button>
-					</li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
-
-</header>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Planos</a></li>
+						<li><a href="#">Contato</a></li>
+						<li><a href="#">Login</a></li>
+						<li>
+							<button class="btn btn-warning navbar-btn btn-sm" type="button">Cadastre-se</button>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</header>
 
 	<div id="fullPage">
 		<section class="section section-blue section-sky" id="principal">
@@ -65,7 +62,6 @@
 				<div class="row" style="margin-top:2em;margin-bottom:2em;">
 					<div class="col-md-6 col-md-offset-3">
 						<p class="lead">Melhore os seus resultados e estabeleça um relacionamento duradouro com os seus clientes!</p>
-
 					</div>
 				</div>
 				<a class="btn btn-warning" href="#" role="button">Saiba como</a>
@@ -347,22 +343,15 @@
 	<script type="text/javascript" src="/js/headroom.min.js"></script>
 	<script type="text/javascript" src="/js/wow.min.js"></script>
 	<script>
-		// Headroom.JS Initialization
-		var header = document.querySelector('#header');
-		var headroom = new Headroom(header, {
-			"offset": 80,
-			"tolerance": 5,
-			"classes": {
-				"initial": "animated",
-			    "pinned": "slideDown",
-			    "unpinned": "slideUp",
-			},
-			onTop : function() {
-				var header = document.querySelector('#header');
-				header.classList.remove('slideDown');
-			},
-		});
-		headroom.init();
+		// Headroom JS
+		(function() {
+			var header = new Headroom(document.querySelector("#header"), {
+				tolerance: 5,
+				offset : 50
+			});
+			
+			header.init();
+		}());
 
 		// WOW Plugin Initialization
 		new WOW().init();
