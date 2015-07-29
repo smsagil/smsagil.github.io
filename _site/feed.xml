@@ -7,7 +7,7 @@
     <title>SMS Ágil</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Campanhas de marketing com sms">
-    <link rel="canonical" href="http://smsagil.com/feed.xml">
+    <link rel="canonical" href="http://smsagil.com/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -23,52 +23,48 @@
 
 
 <body>
-
 	<header>
+		<nav id="header" class="navbar">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img class="navbar-logo" src="img/sms-agil-logo.png" alt="">
+					</a>
+				</div>
 
-	<nav id="header" class="navbar">
-	<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">
-					<img class="navbar-logo" src="img/sms-agil-logo.png" alt="">
-				</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Planos</a></li>
-					<li><a href="#">Contato</a></li>
-					<li><a href="#">Login</a></li>
-					<li>
-						<button class="btn btn-warning navbar-btn btn-sm" type="button">Cadastre-se</button>
-					</li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
-
-</header>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Planos</a></li>
+						<li><a href="#">Contato</a></li>
+						<li><a href="#">Login</a></li>
+						<li>
+							<button class="btn btn-warning navbar-btn btn-sm" type="button">Cadastre-se</button>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</header>
 
 	<div id="fullPage">
 		<section class="section section-blue section-sky" id="principal">
 			<div class="container text-center">
 				<h1 class="title-mega">Voe com SMS Marketing</h1>
-				<div class="row">
+				<div class="row" style="margin-top:2em;margin-bottom:2em;">
 					<div class="col-md-6 col-md-offset-3">
-						<p class="lead">Crie campanhas de sms e desenvolva um relacionamento com seu cliente: Promova, divulgue, agradeça, avise e mais. <br> Cadastre e começe a usar!</p>
-
+						<p class="lead">Melhore os seus resultados e estabeleça um relacionamento duradouro com os seus clientes!</p>
 					</div>
 				</div>
-				<a class="btn btn-warning" href="#" role="button">Faça seu cadastro</a>
+				<a class="btn btn-warning" href="#" role="button">Saiba como</a>
 			</div>
 		</section>
 
@@ -83,17 +79,17 @@
 					<div class="col-md-4 text-center wow fadeIn" data-wow-delay="500ms">
 						<img src="img/target.png" alt="Comunicação Direta" class="wow slideInLeft" data-wow-delay="600ms">
 						<h2 class="title-col">Comunicação Direta</h2>
-						<p class="lead">90% são abertos e lidos em menos de 3 minutos</p>
+						<p class="lead">90% das mensagens são abertas e lidas em menos de 3 minutos.</p>
 					</div>
 					<div class="col-md-4 text-center wow fadeIn" data-wow-delay="500ms">
 						<img src="img/money.png" alt="Econômico" class="wow slideInUp" data-wow-delay="600ms">
 						<h2 class="title-col">Econômico</h2>
-						<p class="lead">Custo reduzido em relação às outras mídias.</p>
+						<p class="lead">Baixo custo de aquisição em relação aos meios tradicionais de publicidade.</p>
 					</div>
 					<div class="col-md-4 text-center wow fadeIn" data-wow-delay="500ms">
 						<img src="img/phone.png" alt="Simples e Acessivel" class="wow slideInRight" data-wow-delay="600ms">
-						<h2 class="title-col">Simples e Acessivel</h2>
-						<p class="lead">Compatível com 100% dos aparelhos de celular</p>
+						<h2 class="title-col">Simples e Acessível</h2>
+						<p class="lead">O SMS é uma tecnologia que está presente 100% aparelhos de celulares.</p>
 					</div>
 				</div>
 			</div>
@@ -104,9 +100,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 col-md-offset-1 wow slideInRight">
-							<h2 class="title-mkt text-white">SMS Marketing para alavancar suas vendas</h2>
-							<p class="lead text-white">Faça campanhas de vendas, promoções, queima de estoque, campanhas para datas especiais e mais.</p>
-							<a class="btn btn-warning" href="#" role="button">Teste Gratuitamente</a>
+							<h2 class="title-mkt text-white">Aumente as suas vendas</h2>
+							<p class="lead text-white">Através da nossa incrível plataforma você pode criar e gerenciar facilmente campanhas para divulgar:</p>
+							<div class="lead text-white">
+								<i class="glyphicon glyphicon-ok"></i>  Promoções
+								<br/>
+								<i class="glyphicon glyphicon-ok"></i>  Cupons de desconto
+								<br/>
+								<i class="glyphicon glyphicon-ok"></i>  Queimas de estoque
+							</div>
+							<a class="btn btn-warning" href="#" role="button">Começe agora!</a>
 						</div>
 						<div class="col-md-3 wow slideInRight">
 							<img class="navbar-logo" src="img/campanhas-sms-vendas.png">
@@ -119,9 +122,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 col-md-offset-1 wow slideInRight">
-							<h2 class="title-mkt text-white">SMS Marketing ajuda na comunicação</h2>
+							<h2 class="title-mkt text-white">Melhore a comunicação</h2>
 							<p class="lead text-white">Lembretes de consultas, exames, reuniões, alertas de fatura em atraso, retirada de produtos, etc são enviadas de forma prática, ágil e econômica</p>
-							<a class="btn btn-primary" href="#" role="button">Teste Gratuitamente</a>
+							<div class="lead text-white">
+								<i class="glyphicon glyphicon-ok"></i>  Promoções
+								<br/>
+								<i class="glyphicon glyphicon-ok"></i>  Cupons de desconto
+								<br/>
+								<i class="glyphicon glyphicon-ok"></i>  Queimas de estoque
+							</div>
+							<a class="btn btn-warning" href="#" role="button">Aproveite essa oportunidade!</a>
 						</div>
 						<div class="col-md-3 wow slideInRight">
 							<img src="img/campanhas-sms-comunicacao.png">
@@ -134,9 +144,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 col-md-offset-1 wow slideInRight">
-							<h2 class="title-mkt">SMS Marketing para fidelizar seus clientes</h2>
-							<p class="lead">SMS em datas comemorativas são uma forma de estimular o relacionamento e fidelizar o cliente. Para quem recebe a mensagem, a sensação de proximidade é ainda maior.</p>
-							<a class="btn btn-primary" href="#" role="button">Teste Gratuitamente</a>
+							<h2 class="title-mkt text-gray">Fidelize os seus clientes</h2>
+							<p class="lead text-gray">SMS em datas comemorativas são uma forma de estimular o relacionamento e fidelizar o cliente. Para quem recebe a mensagem, a sensação de proximidade é ainda maior.</p>
+							<div class="lead text-gray">
+								<i class="glyphicon glyphicon-ok"></i>  Promoções
+								<br/>
+								<i class="glyphicon glyphicon-ok"></i>  Cupons de desconto
+								<br/>
+								<i class="glyphicon glyphicon-ok"></i>  Queimas de estoque
+							</div>
+							<a class="btn btn-warning" href="#" role="button">Crie a sua conta gratuitamente!</a>
 						</div>
 						<div class="col-md-3">
 							<img src="img/campanhas-sms-comunicacao.png">
@@ -275,7 +292,7 @@
 			
 		</section>
 
-		<section class="section" id="diferencial">
+		<section class="section section-blue section-sky fp-section fp-table" style="background-repeat:no-repeat;">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -286,22 +303,19 @@
 					<div class="col-md-8 col-md-offset-2 text-center wow fadeIn">
 						<form class="form-horizontal" action="//formspree.io/your@email.com" method="POST">
 							<div class="form-group form-group-lg">
-								<label class="col-sm-2 control-label" >Nome</label>
-								<div class="col-sm-10">
+								<div class="col-sm-12">
 									<input name="name" class="form-control" type="text" placeholder="Nome">
 								</div>
 							</div>
 							<div class="form-group form-group-lg">
-								<label class="col-sm-2 control-label" for="formGroupInputLarge">E-mail</label>
-								<div class="col-sm-10">
+								<div class="col-sm-12">
 									<input class="form-control" name="_replyto" type="email" placeholder="E-mail">
 								</div>
 							</div>
 							<input type="hidden" name="_subject" value="Novo Contato no Site!" />
 							<input type="hidden" name="_cc" value="another@email.com" />
 							<div class="form-group form-group-lg">
-								<label class="col-sm-2 control-label">Mensagem</label>
-								<div class="col-sm-10">
+								<div class="col-sm-12">
 									<textarea class="form-control" rows="3" placeholder="Mensagem"></textarea>
 								</div>
 							</div>
@@ -347,22 +361,15 @@
 	<script type="text/javascript" src="/js/headroom.min.js"></script>
 	<script type="text/javascript" src="/js/wow.min.js"></script>
 	<script>
-		// Headroom.JS Initialization
-		var header = document.querySelector('#header');
-		var headroom = new Headroom(header, {
-			"offset": 80,
-			"tolerance": 5,
-			"classes": {
-				"initial": "animated",
-			    "pinned": "slideDown",
-			    "unpinned": "slideUp",
-			},
-			onTop : function() {
-				var header = document.querySelector('#header');
-				header.classList.remove('slideDown');
-			},
-		});
-		headroom.init();
+		// Headroom JS
+		(function() {
+			var header = new Headroom(document.querySelector("#header"), {
+				tolerance: 5,
+				offset : 50
+			});
+			
+			header.init();
+		}());
 
 		// WOW Plugin Initialization
 		new WOW().init();
