@@ -201,23 +201,23 @@
 				<div class="row">
 					<div class="col-md-3 text-center">
 						<img src="" alt="">
-						<h2 class="title-col">Importe seus contatos</h2>
-						<p class="lead">Importe os contatos do seu celular, de outros sistemas ou cadastre manualmente.</p>
+						<h2 class="title-col">Contatos</h2>
+						<p class="lead">Importe facilmente a agenda de contatos do seu celular.</p>
 					</div>
 					<div class="col-md-3 text-center">
 						<img src="" alt="">
-						<h2 class="title-col">Monte grupos de contatos</h2>
-						<p class="lead">Separe seus contatos em grupos categorizados, seja por interesse, áreas de atuação, entre outros.</p>
+						<h2 class="title-col">Campanhas</h2>
+						<p class="lead">Agende o envio através de campanhas e obtenha relatórios em tempo real.</p>
 					</div>
 					<div class="col-md-3 text-center">
 						<img src="" alt="">
-						<h2 class="title-col">Criar campanhas personalizadas</h2>
-						<p class="lead">Agende o envio por campanhas e obtenha relatórios sobre o recebimento dos SMS.</p>
+						<h2 class="title-col">Grupos</h2>
+						<p class="lead">Organize e gerencie os seus contatos de acordo com as suas características ou interesses.</p>
 					</div>
 					<div class="col-md-3 text-center">
 						<img src="" alt="">
-						<h2 class="title-col">Envie mensagens individuais</h2>
-						<p class="lead">Envie mensagens para um contato com 2 cliques.</p>
+						<h2 class="title-col">Mensagens</h2>
+						<p class="lead">Envie facilmente as suas mensagens com apenas alguns cliques.</p>
 					</div>
 				</div>
 			</div>
