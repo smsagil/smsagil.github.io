@@ -17,6 +17,9 @@ body {
 .bg-orange {
 	background-color: #F49D1E !important;
 }
+.bg-blue {
+	background-color: #015AA6 !important;
+}
 /*
 	TITULOS
 	*/
@@ -64,6 +67,14 @@ BOTÕES
 }
 .btn-primary {
 	background-color: #4D9CD5;
+}
+.btn-blue {
+	color: #fff;
+	background-color: #015AA6;
+}
+.btn-blue:hover {
+	color: #fff;
+	background-color: #014985;
 }
 .btn-warning {
 	background-color: #F49D1E;
